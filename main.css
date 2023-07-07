@@ -9,6 +9,7 @@
     --cp-f: rgb(243, 139, 168);
     --cp-fla: rgb(242, 205, 205);
 }
+description { }
 body { 
     font-family: sans-serif; 
     display: flex; align-items: center; 
