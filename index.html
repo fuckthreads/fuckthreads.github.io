@@ -2,32 +2,41 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>fuck threads</title>
+    <!--(b) i don't this below is necessary, especially since regular edge is deprecated-->
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>     
+    <title>🚒🔥 fuck threads</title>
+    <meta name="description" content="why Meta, and it's new federated social media service should not be trusted.">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- (b) although not as practical, we could probably reduce the amount of requests by inlining the css in the html itself.
+        actions + new commit/rebase? maybe? -->
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <meta content="fuck threads" property="og:title" />
-    <meta content="why threads is shit" property="og:description" />
-    <meta content="https://fuckthreads.gay" property="og:url" />
-    <meta content="#cba6f7" data-react-helmet="true" name="theme-color" />
 </head>
 <body>
     <header>
-        <h1>fuck threads</h1>
-        <h3>reasons why threads by meta is shit</h3>
+        <div>
+        <h1><span class="fuck">fuck</span> threads</h1>
+        <h3>why <span style="color: var(--cp-blu)">Meta</span>, and it's new federated social media service <span class="fuck">should not</span> be trusted</h3>
+        </div>
+        <img src="./assets/logo.svg" alt="the logo for meta's threads service, with a large no/denied symbol at it's bottom right."/>
     </header>
-    <div class="content">
-        <h4>ave here, hey there</h4>
-        <p>this site is under heavy construction! in the meantime please check out the following stuff:
-        <ul>
-            <li><a href="https://fedipact.online/why">fedipact.online</a></li>
-            <li><a href="https://haqueers.com/@Rairii/110645267297712896">this thread by @Rairii@haqueers.com</a></li>
-        </ul>
-        </p>
+    <div class="loc"> <!-- (b) list of contents. put your reasons here under `article` wrappers.-->
+        <article>
+            <div class="tags">
+            <!-- (b) we could probably add a tag based system 
+                for when this information is (un)known or can be relative 
+                to other meta services as well. example at article 2.-->
+            </div>
+            <h1>it gathers *all* your personal information for a simple service.</h1>
+            <i>you are not the customer, you are the product.</i>
+            <p>for comparison: mastodon does not requires any privacy-related permissions to function in mobile devices.</p>
+        </article>
+        <article>
+            <div class="tags">
+                <p class="unk">unconfirmed/unknown</p>
+            </div>
+            <h1>it relies on your real name, and there is no confirmation if that counts for social identities either</h1>
+            <i>see: the mjdxp ban</i>
+        </article>
     </div>
-    <footer>
-        <h4>This website is <b>Under Construction!</b></h4>
-        <h6>this website uses minimal javascript, and doesn't steal any cookies :3</h6>
-    </footer>
 </body>
 </html>
