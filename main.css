@@ -18,6 +18,12 @@ body {
 
 .fuck { color: var(--cp-f); } 
 
+/* make link colors look better */
+a {
+    color: var(--cp-fla);
+    text-decoration: none;
+}
+
 /* header specific values */
 header { 
     background: var(--cp-cr); margin: 1rem 0; 
@@ -51,3 +57,6 @@ header img { width: 10vmax; } /* logo sizing */
 }
 /* set custom tag colors here bbg */
 .tags .unk { background: var(--cp-hl); color: var(--cp-s1); border-color: var(--cp-s1); }
+.tags .src { background: var(--cp-s1); color: var(--cp-f); border-color: var(--cp-s1); }
+
+ul, ol { padding-inline-start: 0; }
