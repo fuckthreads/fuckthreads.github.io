@@ -1,0 +1,52 @@
+:root {
+    --cp-cr: rgb(17, 17, 27);
+    --cp-bg: rgb(30, 30, 46);
+    --cp-s1: rgb(69, 71, 90);
+    --cp-st1: rgb(186, 194, 222);
+    --cp-txt: rgb(205, 214, 244);
+    --cp-hl: rgb(249, 226, 175);
+    --cp-blu: rgb(137, 220, 235);
+    --cp-f: rgb(243, 139, 168);
+    --cp-fla: rgb(242, 205, 205);
+}
+body { 
+    font-family: sans-serif; 
+    display: flex; align-items: center; 
+    flex-direction: column; 
+    color: var(--cp-txt); background: var(--cp-bg); }
+
+.fuck { color: var(--cp-f); } 
+
+/* header specific values */
+header { 
+    background: var(--cp-cr); margin: 1rem 0; 
+    padding: 0.5rem 1.5rem; 
+    border-radius: 20px; box-shadow: 0px 5px 10px var(--cp-cr); }
+header h1 { margin-bottom: 0.3rem; }
+.loc article h1, header h3 { margin-top: 0; }
+header, .tags { display: flex; flex-direction: row; }
+header h1 { font-size: 3vmax; }
+header h3 { font-size: 1.5vmax; }
+
+/* article specific values */ 
+.loc article, .tags { max-width: 75vmax;}
+header img { width: 10vmax; } /* logo sizing */
+.loc article { 
+    border: 0px solid var(--cp-s1);  
+    padding: 1rem 0; padding-bottom: 1.5rem; 
+    font-size: 1.1vmax;
+    border-top-width: 2px; }
+.loc article h1 { 
+    font-size: 2.5vmax; 
+    color: var(--cp-f);
+    background: var(--cp-cr); padding: 0.5rem 1rem; border-radius: 10px;}
+
+/* tags */
+.tags p {
+    border-radius: 5px;
+    background: var(--cp-s1);
+    padding: 5px 8px;
+    border: 1px solid var(--cp-st1);
+}
+/* set custom tag colors here bbg */
+.tags .unk { background: var(--cp-hl); color: var(--cp-s1); border-color: var(--cp-s1); }
